@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% load draw_menu %}
+
+{% block title %}Главная страница{% endblock %}
+{% block content %}
+<nav>
+    {% draw_menu 'Тестовое меню' as menu %}
+    {{ menu|safe }}
+</nav>
+{% endblock %}
