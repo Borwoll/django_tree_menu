@@ -102,3 +102,5 @@ STATIC_URL = 'static/'
 
 # Default primary key field type
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+TEST_DISCOVER_PATTERN = 'tests.py'
